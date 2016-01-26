@@ -1,0 +1,290 @@
+.analytics-blue, .analytics-green, .article, .avatar-facebook, .avatar-foursquare, .avatar-green, .avatar-orange, .avatar-twitter, .avatar-youtube, .bottom-left-arow, .bottom-right-arrow, .channels, .check-orange, .checklist, .customers-blue, .customers-green, .dashboard-blue, .dashboard-green, .ellipse-green, .ellipse-grey, .google, .help, .man-blue, .man-grey, .messages-blue, .messages-green, .nav-left, .nav-right, .outline-grey, .page-creator-blue, .page-creator-green, .promotions-blue, .promotions-green, .referrals, .ribbon-center, .ribbon-left, .ribbon-right, .search, .settings-grey, .settings, .shadow, .spacer1, .tip, .triangle-white, .twitter, .foursquare, .facebook{
+	background: url(img/sprites.png) no-repeat;
+	display: inline-block;
+	z-index: 100;
+}
+
+.analytics-blue{
+	background-position: -1px -1px ;
+	width: 42px;
+	height: 50px;
+}
+
+.analytics-green{
+	background-position: -1px -53px ;
+	width: 42px;
+	height: 50px;
+}
+
+.article{
+	background-position: 0 -126px ;
+	width: 19px;
+	height: 23px;
+}
+
+.avatar-facebook{
+	background-position: 0 -154px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-foursquare{
+	background-position: -16px -154px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-green{
+	background-position: 0 -171px ;
+	width: 78px;
+	height: 82px;
+}
+
+.avatar-orange{
+	background-position: -79px -171px ;
+	width: 78px;
+	height: 82px;
+}
+
+.avatar-twitter{
+	background-position: -32px -154px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-youtube{
+	background-position: -48px -154px ;
+	width: 16px;
+	height: 16px;
+}
+
+.bottom-left-arow{
+	background-position: -3px -252px ;
+	width: 22px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.bottom-right-arrow{
+	background-position: -21px -252px ;
+	width: 22px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.channels{
+	background-position: -2px -309px ;
+	width: 80px;
+	height: 80px;
+}
+
+.check-orange{
+	background-position: -226px -267px ;
+	width: 22px;
+	height: 21px;
+}
+
+.checklist{
+	background-position: -254px -267px ;
+	width: 22px;
+	height: 20px;
+}
+
+.customers-blue{
+	background-position: -49px -8px ;
+	width: 62px;
+	height: 42px;
+}
+
+.customers-green{
+	background-position: -50px -59px ;
+	width: 62px;
+	height: 42px;
+}
+
+.dashboard-blue{
+	background-position: -113px 0;
+	width: 58px;
+	height: 58px;
+}
+
+.dashboard-green{
+	background-position: -115px -60px ;
+	width: 58px;
+	height: 58px;
+}
+
+.ellipse-green{
+	background-position: -100px -264px ;
+	width: 24px;
+	height: 24px;
+}
+
+.ellipse-grey{
+	background-position: -71px -264px ;
+	width: 24px;
+	height: 24px;
+}
+
+.google{
+	background-position: -169px -234px ;
+	width: 62px;
+	height: 16px;
+}
+
+.help{
+	background-position: -337px -268px ;
+	width: 20px;
+	height: 20px;
+}
+
+.man-blue{
+	background-position: -151px -265px ;
+	width: 20px;
+	height: 20px;
+}
+
+.man-grey{
+	background-position: -128px -265px ;
+	width: 20px;
+	height: 20px;
+}
+
+.messages-blue{
+	background-position: -177px -1px ;
+	width: 57px;
+	height: 48px;
+}
+
+.messages-green{
+	background-position: -177px -51px ;
+	width: 57px;
+	height: 48px;
+}
+
+.nav-left{
+	background-position: -178px -267px ;
+	width: 22px;
+	height: 22px;
+}
+
+.nav-right{
+	background-position: -202px -267px ;
+	width: 22px;
+	height: 22px;
+}
+
+.outline-grey{
+	background-position: -245px -220px ;
+	width: 60px;
+	height: 30px;
+}
+
+.page-creator-blue{
+	background-position: -250px 0;
+	width: 45px;
+	height: 50px;
+}
+
+.page-creator-green{
+	background-position: -250px -51px ;
+	width: 45px;
+	height: 50px;
+}
+
+.promotions-blue{
+	background-position: -299px 0;
+	width: 50px;
+	height: 50px;
+}
+
+.promotions-green{
+	background-position: -300px -51px ;
+	width: 50px;
+	height: 50px;
+}
+
+.referrals{
+	background-position: -89px -307px ;
+	width: 80px;
+	height: 80px;
+}
+
+.ribbon-center{
+	background-position: 0 -399px ;
+	width: 210px;
+	height: 50px;
+}
+
+.ribbon-left{
+	background-position: -208px -306px ;
+	width: 15px;
+	height: 40px;
+}
+
+.ribbon-right{
+	background-position: -232px -306px ;
+	width: 15px;
+	height: 40px;
+}
+
+.search{
+	background-position: -149px -127px ;
+	width: 23px;
+	height: 22px;
+}
+
+.settings-grey{
+	background-position: -284px -267px ;
+	width: 20px;
+	height: 20px;
+}
+
+.settings{
+	background-position: -309px -267px ;
+	width: 20px;
+	height: 20px;
+}
+
+.shadow{
+	background-position: -367px -276px ;
+	width: 60px;
+	height: 5px;
+}
+
+.spacer1{
+	background-position: -199px -310px ;
+	width: 1px;
+	height: 30px;
+}
+
+.tip{
+	background-position: -33px -126px ;
+	width: 14px;
+	height: 23px;
+}
+
+.triangle-white{
+	background-position: -206px -353px ;
+	width: 40px;
+	height: 10px;
+}
+
+.twitter{
+	background-position: -173px -216px ;
+	width: 54px;
+	height: 16px;
+}
+
+.foursquare{
+	background-position: -165px -198px ;
+	width: 79px;
+	height: 16px;
+}
+
+.facebook{
+	background-position: -174px -180px ;
+	width: 70px;
+	height: 16px;
+}
+

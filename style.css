@@ -1,0 +1,186 @@
+/*------------Navigation------------*/
+#green-header {
+    display: block;
+    color: white;
+    background-color: #0BCB73;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+.header-1 {
+    background-color: #2398F4;
+    color: #FFF;
+    width: 100%;
+    z-index: 1;
+    height: 20px;
+    text-align: right;
+}
+.header-2 {
+    background-image: url(img/background.png);
+    display: block;
+    background-position: top;
+    min-height: 110px;
+    background-size: 100% 100%;
+}
+.header-2-image {
+    padding: 18px;
+}
+/*------------header-2 hover state icons------------*/
+.dashboard-green:hover {
+    background: url(img/sprites.png) no-repeat;
+    background-position: -113px 0;
+}
+.customers-green:hover {
+    background: url(img/sprites.png) no-repeat;
+    background-position: -49px -8px;
+}
+.messages-green:hover {
+    background: url(img/sprites.png) no-repeat;
+    background-position: -177px -1px ;
+}
+.promotions-green:hover {
+    background: url(img/sprites.png) no-repeat;
+    background-position: -299px 0;
+}
+.page-creator-green:hover {
+    background: url(img/sprites.png) no-repeat;
+    background-position: -250px 0;
+}
+.analytics-green:hover {
+    background: url(img/sprites.png) no-repeat;
+    background-position: -1px -1px ;
+}
+/*------------Images------------*/
+.bar-graph {
+    margin: 15px 10px;
+}
+
+/*------------Text------------*/
+h1 {
+    
+}
+h2 {
+    color: #16A0EE;
+    font-family: sans-serif;
+    font-size: 2em;
+    display: block;
+}
+h3 {
+    color: #16A0EE;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+h4 {
+    color: #EF8E36;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+h5 {
+    color: #ccc;
+    text-transform: uppercase;
+}
+p {
+    
+}
+.inline {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+}
+.channels-text {
+    padding-top: 50px;
+}
+/*------------Links------------*/
+a:hover {
+    text-decoration: none;
+}
+
+a.tasks:active {
+    text-decoration: none;
+    color: #ccc;
+}
+input[type=checkbox] {
+    margin: 10px;
+}
+/*------------Miscellaneous------------*/
+.inline {
+    display: inline;
+}
+.outer-box {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    color: #808080;
+    margin: 20px;
+    border-color: #ccc;
+}
+.ads {
+    display: block;
+    margin: 20px;
+    background-color: #2398F4;
+    z-index: 100;
+}
+.did-you-know-inner {
+    margin: 50px 85px 50px 60px;
+}
+.did-you-know {
+    margin: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #2398F4;
+    color: #fff;
+    width: 700px;
+}
+.btn-default {
+    color: #F28F36;
+}
+.dropdown {
+    display: inline;
+    float: right;
+}
+/*------------Social Media------------*/
+.facebook {
+    border-radius: 5px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 11px;
+    background: #0A466D;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    width: 63px;
+    display: inline;
+}
+.twitter {
+    border-radius: 5px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 11px;
+    background: #079AED;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    width: 55px;
+    display: inline;
+}
+.foursquare {
+    border-radius: 5px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 11px;
+    background: #385B96;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    width: 65px;
+    display: inline;
+}
+.google {
+    border-radius: 5px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 11px;
+    background: #03CB73;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    width: 55px;
+    display: inline;
+}
