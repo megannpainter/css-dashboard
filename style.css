@@ -98,6 +98,9 @@ a:visited {
 .header-2-image {
     padding: 18px;
 }
+.mini {
+    vertical-align: 13px;
+}
 /*-------------------header-2 hover state icons-------------------*/
 .dashboard-green:hover {
     background: url(img/sprites.png) no-repeat;
@@ -412,13 +415,19 @@ input[type="checkbox"] {
 /*---------------Footer-------------*/
 #footer {
     background-color: #f0f0f0;
-    box-shadow: #808080;
+}
+.footer {
+    margin: 10px 0;
+    vertical-align: middle;
+    float: left;
 }
 .footer-text: {
     font-family: sans-serif;
     font-size: 1em;
     color: #808080;
-    display: inline;
+    display: inline !important;
+    text-decoration: none;
+    padding-top: 5px;
 }
 .footer-blue {
     font-family: sans-serif;
@@ -426,13 +435,73 @@ input[type="checkbox"] {
     color: #2398F4;
     font-weight: 700;
     display: inline;
+    text-decoration: none;
+}
+.double-side-border {
+    border-left: solid 1px #808080;
+    border-right: solid 1px #808080;
+    padding: 10px;
+}
+.logout-border {
+    border-right: solid 1px #808080;
 }
 /*---------------Media Query-------------*/
 /*--sm screens (tablets--*/
+@media screen and (max-width: 1199px) {
+    .main-content {
+        max-width: 923px;
+    }
+}
 @media screen and (max-width: 991px) {
     .did-you-know {
         margin: 5px;
     }
+    .border-right {
+        border-right: none;
+    }
+    .border-left {
+        border-left: none;
+    }
+    .circle-graphs {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .double-side-border {
+    border-left: none;
+    border-right: none;
+    }
+    .logout-border {
+    border-right: none;
+    }
+    .main-content {
+        max-width: 703px;
+    }
+}  
+/*--xs screens--*/
+@media screen and (max-width: 767px) {
+    .dashboard-green {
+        zoom: .8;
+    }
+    .customers-green {
+        zoom: .8;
+    }
+    .messages-green {
+        zoom: .8;
+    }
+    .promotions-green {
+        zoom: .8;
+    }
+    .page-creator-green {
+        zoom: .8;
+    }
+    .analytics-green {
+        zoom: .8;
+    }
+    .triangle-white {
+        opacity: 0;
+    }
+    
+}
 @media screen and (max-width: 550px) {
     .did-you-know-inner {
         padding: 25px 35px;
@@ -440,19 +509,5 @@ input[type="checkbox"] {
     .bottom-right-arrow {
         margin-top: -80px;
     }
-/*--xs screens--*/
-@media screen and (max-width: 767px) {
-    .border-bottom {
-        
-    }
-    .border-left {
-        
-    }
-    .border-right {
-        
-    }
-    .border-right {
-        
-    }
-}
+    
 

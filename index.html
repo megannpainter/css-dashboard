@@ -26,7 +26,7 @@
     <div class="container-fluid">
           <div class="row header-1">
             <div class="col-sm-12">
-              <span>MINI of Raleigh</span>
+              <span class="mini">MINI of Raleigh</span>
               <div class="spacer1 spacer-margin"></div>
                 <a href="#">
                   <div class="help header-1-image"></div>
@@ -111,13 +111,13 @@
      <div class="container container-border">
       <div class="container main-content">
       <div class="row border-bottom">
-        <div class="col-sm-2 border-right">
+        <div class="col-md-2 border-right">
           <h4>Announcements</h4>
         </div>
-        <div class="col-sm-9 border-right">
+        <div class="col-md-9 border-right">
           <p class="announcements-padding">Sociis nataque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Vivamus sagiitus lacus</p>
         </div>
-        <div class="col-sm-1 announcements-padding">
+        <div class="col-md-1 announcements-padding">
           <a href="#">
             <div class="nav-left"></div>
           </a>
@@ -268,9 +268,9 @@
                   </ul>
               </div>
               <br>
-              <img src="img/bar-graph.png" class="bar-graph">
+              <img src="img/bar-graph.png" class="bar-graph" alt="bar-graph">
             </div><!--------end of col-md-9-------->
-            <div class="col-md-3 col-sm-6 border-left">
+            <div class="col-md-3 col-sm-12 border-left circle-graphs">
               <h5>Channels</h5>
               <div class="channels"></div>
               <h5>Referrals</h5>
@@ -281,7 +281,7 @@
             <input type="checkbox" id="facebook">
               <label for="facebook">
                 <span></span>
-                <div class="facebook">Facebook</div>
+                <p class="facebook">Facebook</p>
               </label>
             <input type="checkbox" id="twitter">
               <label for="twitter">
@@ -293,7 +293,7 @@
                 <span></span>
                 <p class="foursquare">Foursquare</p>
               </label>
-            <input type="checkbox"id="google">
+            <input type="checkbox" id="google">
               <label for="google">
                 <span></span>
                 <p class="google">Google+</p>
@@ -309,7 +309,7 @@
                 <div class="inner-box">
                   <span class="avatar-green"></span>
                   <div class="ribbon-center"><p class="ribbon-main-text">75 Contacts</p><p class="ribbon-sub-text">4 Influencers</p></div>
-                  <img src="img/chart-green.png" class="charts">
+                  <img src="img/chart-green.png" alt="chart-contacts" class="charts">
                 </div>
                 <span class="ribbon-right"></span>
               </div>
@@ -320,30 +320,30 @@
                 <div class="inner-box">
                   <div class="avatar-orange"></div>
                   <div class="ribbon-center"><p class="ribbon-main-text">17 Customers</p><p class="ribbon-sub-text">0 Influencers</p></div>
-                  <img src="img/chart-orange.png" class="charts">
+                  <img src="img/chart-orange.png" alt="chart-consumers" class="charts">
                 </div>
                 <div class="ribbon-right"></div>
               </div>
             </div>
           </div><!--------end of inner row--------->
           <div class="row did-you-know">
-            <img src="img/bottom-left-arrow.png" class="bottom-left-arrow">
+            <img src="img/bottom-left-arrow.png" alt="left-arrow" class="bottom-left-arrow">
               <p class="did-you-know-inner">DID YOU KNOW? <br> Maecenas sed dian eget ridud varius blandit sit amet non magna.  Lorem ipsum dolor sit amet consectetur adipiscing elit.  Etiam porta sem malesuada magna mollis euismod.</p>
-              <img src="img/bottom-right-arrow.png" class="bottom-right-arrow">
+              <img src="img/bottom-right-arrow.png" alt="right arrow" class="bottom-right-arrow">
           </div>
         </div><!--------end of col-md-8-------->
       </div> <!------end row------>
 <!----------------CODE FOR ADVERTISMENTS--------------->
       <div class="row ads">
-        <div class="col-md-4 col-xs-12">
-          <a href="#"><img src="img/watch-what-you-say.png" class="ads ad-1"></a>
+        <div class="col-md-4 hidden-sm">
+          <a href="#"><img src="img/watch-what-you-say.png" alt="watch-what-you-say" class="ads ad-1"></a>
         </div>
-        <div class="col-md-4 col-xs-12">
-          <a href="#"><img src="img/see-what-others.png" class="ads ad-2"></a>
+        <div class="col-md-4 hidden-sm">
+          <a href="#"><img src="img/see-what-others.png" alt="see-what-others-are-doing-with-us" class="ads ad-2"></a>
         </div>
-        <div class="col-md-4 col-xs-12">
-          <a href="#"><img src="img/version-2.0.png" class="ads ad-3">
-        </div></a>
+        <div class="col-md-4 hidden-sm">
+          <a href="#"><img src="img/version-2.0.png" alt="version-2.0" class="ads ad-3"></a>
+        </div>
       </div>
     </div>
 
@@ -351,16 +351,22 @@
     <br>
     <!------footer code------>
     <div class="container-fluid" id="footer">
-      <div class="container">
+      <div class="container footer">
       <div class="row">
-        <div class="col-sm-8 col-xs-12">
-          <span class="footer-text">Tutorials | Support | Blog</span>
-          
-          <span class="footer-blue">Ariel Winter </span><span class="footer-text">likes your</span><span class="footer-blue"> Win A Cooper Sweepstakes</span><span class="footer-text"> Promotion</span>
-          <img src="img/pull-up.png">
-          </div>
-        <div class="col-sm-2 col-xs-12">
-          <img src="img/Avatar.png"> <div class="footer-blue"> Logout </div>
+        <div class="col-sm-3 col-xs-12">
+            <a href="#">Tutorials</a>
+            <a href="#" class="double-side-border">Support</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="col-sm-5 col-xs-12 double-side-border">
+          <a href="#"><span class="footer-blue">Ariel Winter </span></a>
+          <span class="footer-text">likes your</span>
+          <a href="#"><span class="footer-blue"> Win A Cooper Sweepstakes</span></a>
+          <span class="footer-text"> Promotion</span>
+          <a href="#"><img src="img/pull-up.png" alt="up-arrow"></a>
+        </div>
+        <div class="col-sm-2 col-xs-12 logout-border">
+          <img src="img/Avatar.png" alt="avatar"> <div class="footer-blue"> Logout </div>
         </div>
         <div class="col-sm-2 col-xs-12">
           <span class="avatar-facebook"></span>
