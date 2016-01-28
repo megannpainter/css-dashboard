@@ -1,4 +1,4 @@
-.analytics-blue, .analytics-green, .article, .avatar-facebook, .avatar-foursquare, .avatar-green, .avatar-orange, .avatar-twitter, .avatar-youtube, .bottom-left-arow, .bottom-right-arrow, .channels, .check-orange, .checklist, .customers-blue, .customers-green, .dashboard-blue, .dashboard-green, .ellipse-green, .ellipse-grey, .google, .help, .man-blue, .man-grey, .messages-blue, .messages-green, .nav-left, .nav-right, .outline-grey, .page-creator-blue, .page-creator-green, .promotions-blue, .promotions-green, .referrals, .ribbon-center, .ribbon-left, .ribbon-right, .search, .settings-grey, .settings, .shadow, .spacer1, .tip, .triangle-white, .twitter, .foursquare, .facebook{
+.analytics-blue, .analytics-green, .article, .avatar-facebook, .avatar-foursquare, .avatar-green, .avatar-orange, .avatar-twitter, .avatar-youtube, .channels, .check-orange, .checklist, .customers-blue, .customers-green, .dashboard-blue, .dashboard-green, .ellipse-green, .ellipse-grey, .google, .help, .man-blue, .man-grey, .messages-blue, .messages-green, .nav-left, .nav-right, .outline-grey, .page-creator-blue, .page-creator-green, .promotions-blue, .promotions-green, .referrals, .ribbon-center, .ribbon-left, .ribbon-right, .search, .settings-grey, .settings, .shadow, .spacer1, .tip, .triangle-white, .twitter, .foursquare, .facebook{
 	background: url(img/sprites.png) no-repeat;
 	display: inline-block;
 	z-index: 100;
@@ -20,6 +20,8 @@
 	background-position: 0 -126px ;
 	width: 19px;
 	height: 23px;
+	float: left;
+	margin: 12px 0 0 0;
 }
 
 .avatar-facebook{
@@ -38,12 +40,16 @@
 	background-position: 0 -171px ;
 	width: 78px;
 	height: 82px;
+	margin-top: -25px;
+	margin-bottom: -10px;
 }
 
 .avatar-orange{
 	background-position: -79px -171px ;
 	width: 78px;
 	height: 82px;
+	margin-top: -25px;
+	margin-bottom: -10px;
 }
 
 .avatar-twitter{
@@ -56,20 +62,6 @@
 	background-position: -48px -154px ;
 	width: 16px;
 	height: 16px;
-}
-
-.bottom-left-arow{
-	background-position: -3px -252px ;
-	width: 22px;
-	height: 50px;
-	vertical-align: middle;
-}
-
-.bottom-right-arrow{
-	background-position: -21px -252px ;
-	width: 22px;
-	height: 50px;
-	vertical-align: middle;
 }
 
 .channels{
@@ -142,12 +134,14 @@
 	background-position: -151px -265px ;
 	width: 20px;
 	height: 20px;
+	margin: 5px 0 0 5px;
 }
 
 .man-grey{
 	background-position: -128px -265px ;
 	width: 20px;
 	height: 20px;
+	display: none;
 }
 
 .messages-blue{
@@ -214,18 +208,25 @@
 	background-position: 0 -399px ;
 	width: 210px;
 	height: 50px;
+	margin: 0 0 -20px -1px;
+	z-index: 100;
 }
 
 .ribbon-left{
 	background-position: -208px -306px ;
 	width: 15px;
 	height: 40px;
+	float: left;
+	margin-top: 73px;
 }
 
 .ribbon-right{
 	background-position: -232px -306px ;
 	width: 15px;
 	height: 40px;
+	float: right;
+	margin-top: -167px;
+    margin-right: 9px;
 }
 
 .search{
@@ -270,6 +271,7 @@
 	background-position: -206px -353px ;
 	width: 40px;
 	height: 10px;
+	margin-left: 10px;
 }
 
 .twitter{

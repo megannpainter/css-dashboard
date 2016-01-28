@@ -1,22 +1,91 @@
-/*------------Navigation------------*/
+/*-------------------GLOBAL STYLES-------------------*/
+h2 {
+    color: #16A0EE;
+    font-family: sans-serif;
+    font-size: 2em;
+    display: block;
+}
+h3 {
+    color: #16A0EE;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+h4 {
+    color: #EF8E36;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+h5 {
+    color: #ccc;
+    text-transform: uppercase;
+}
+.inline {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+}
+.border-top {
+    border-top: solid 1pt #ccc;
+}
+.border-left {
+    border-left: solid 1pt #ccc;
+}
+.border-bottom {
+    border-bottom: solid 1pt #ccc;
+}
+.border-right {
+    border-right: solid 1pt #ccc;
+}
+.container-border {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #f0f0f0, #fff);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+.main-content {
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius:5px;
+    max-width: 1140px;
+    margin-top: 16px;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+/*-------------------Navigation-------------------*/
 #green-header {
     display: block;
     color: white;
     background-color: #0BCB73;
     border-radius: 10px;
     margin: 15px 0px;
+    max-height: 100px;
 }
 .header-1 {
     background-color: #2398F4;
     color: #FFF;
-    width: 100%
     min-height: 45px;
     text-align: right;
+    vertical-align: middle;
+    padding-bottom: 5px;
 }
+
 .header-1 p a {
     text-align: right;
     border: 0px 1 0 0;
     margin: 10px;
+}
+.header-1-image {
+    margin-bottom: 8px;
+}
+.spacer-margin {
+    margin: 5px;
 }
 .header-2 {
     background-image: url(img/background.png);
@@ -24,11 +93,12 @@
     background-position: top;
     min-height: 110px;
     background-size: 100% 100%;
+    max-height: 115px;
 }
 .header-2-image {
     padding: 18px;
 }
-/*------------header-2 hover state icons------------*/
+/*-------------------header-2 hover state icons-------------------*/
 .dashboard-green:hover {
     background: url(img/sprites.png) no-repeat;
     background-position: -113px 0;
@@ -54,7 +124,7 @@
     background-position: -1px -1px ;
 }
 
-/*------------header-2 hover state icons------------*/
+/*-------------------header-2 hover shadows-------------------*/
 .shadow.shadow-2 {
     margin: 26px 0 0 0;
 }
@@ -64,138 +134,325 @@
 .shadow.shadow-4 {
     margin: 18px 0 0 0;
 }
-/*------------Images------------*/
-.bar-graph {
-    margin: 15px 10px;
+/*-------------------search bar-------------------*/
+#search-dash {
+    background-color: #0BCB73;
+    min-height: 50px;
+    margin: 15px 0;
+    border-radius: 20%;
+    max-height: 100px;
+}
+.box {
+    color: #fff;
+    width 250px;
+    height: 50px;
+    float: right;
+    margin: 15px 0 0 0;
 }
 
-/*------------Text------------*/
-h1 {
-    
+.container-1 {
+    vertical-align: middle;
 }
-h2 {
-    color: #16A0EE;
-    font-family: sans-serif;
-    font-size: 2em;
-    display: block;
+
+.container-1 input#search {
+    background: #fff;
+    font-size: 1em;
+    border: none;
+    float:left;
+    color: #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    height: 30px;
+    width: 200px;
 }
-h3 {
-    color: #16A0EE;
+.container-1 .icon {
+    position: absolute;
+    z-index: 100;
+    float: right;
+    top: 50%;
+    border: none;
+    text-align: right;
+    background: none;
+    margin-left: 165px;
+    margin-top: -16px;
+}
+.search {
+    margin: 0px 0 0 -35px;
+}
+/*-------------------Announcements-------------------*/
+.announcements-padding {
+    padding-top: 5px;
+}
+/*-------------------Tasks-------------------*/
+.white-numbers {
+    color: #fff;
+    z-index: 100;
+    padding: 0 0 0 7px;
+}
+.tasks {
+    color: #2398F4 !important;
     font-family: sans-serif;
     font-size: 1.3em;
+    border-bottom: solid 1px #ccc;
+    padding: 15px 20px;
 }
-h4 {
-    color: #EF8E36;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-size: 1em;
+.outline-grey {
+    display:inline-block;
+    float: right;
 }
-h5 {
+.text-wrap {
+    white-space: nowrap;
+}
+.css-circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: #0BCB73;
+    display: inline-block;
+}
+.tasks:hover .css-circle {
+    background-color: #ccc;
+}
+.tasks:hover {
     color: #ccc;
-    text-transform: uppercase;
 }
-p {
-    
+.tasks:hover .tasks-text {
+    color: #ccc !important;
 }
-.inline {
-    display: inline;
+.tasks:hover .avatar-box-text {
+    color: #ccc;
 }
-ul {
-    list-style-type: none;
+.tasks:hover .man-blue {
+    display: none;
+}
+.tasks:hover .man-grey {
+    display: inline-block;
+    margin: 5px 0 0 5px;
+}
+/*-------------------Recommendations-------------------*/
+.top-text {
+    font-size: .8em;
+    line-height: 80%;
+    color: #808080;
+}
+.main-text {
+    font-size: 1.1em;
+    line-height: 75%;
+    color: #808080;
+}
+.recommendations {
+    border-bottom: dotted 1px #ccc;
+    padding: 10px 0 5px 0;
+}
+/*-------------------Analytics-------------------*/
+.bar-graph {
+    margin: 15px 10px;
+    height: 100%;
+    width: 100%;
 }
 .channels-text {
     padding-top: 50px;
 }
-/*------------Links------------*/
-a:hover {
+.large-column {
+    padding-left: 50px;
+}
+/*-------------------Social Media-------------------*/
+.facebook {
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11px;
+    padding-left: 8px;
     text-decoration: none;
+    width: 63px;
+}
+.twitter {
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11px;
+    padding-left: 8px;
+    text-decoration: none;
+    width: 55px;
+}
+.foursquare {
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11px;
+    padding-left: 8px;
+    text-decoration: none;
+    width: 65px;
+}
+.google {
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11px;
+    padding-left: 8px;
+    text-decoration: none;
+    width: 55px;
 }
 
-a.tasks:active {
-    text-decoration: none;
-    color: #ccc;
-}
-input[type=checkbox] {
-    margin: 10px;
-}
-/*------------Miscellaneous------------*/
-.inline {
-    display: inline;
-}
-.outer-box {
+input[type="checkbox"] + label span {
     display: inline-block;
-    width: 300px;
-    height: 300px;
-    color: #808080;
-    margin: 20px;
-    border-color: #ccc;
+    width: 20px;
+    height:20px;
+    vertical-align: middle;
+    background-image: url(img/form-checkbox.png);
+    cursor: pointer;
 }
-.ads {
-    display: block;
-    margin: 20px;
-    background-color: #2398F4;
-    z-index: 100;
+input[type="checkbox"]:checked + label span {
+    background: url(img/sprites.png) -226px -267px no-repeat;
 }
-.did-you-know-inner {
-    margin: 50px 85px 50px 60px;
+input[type="checkbox"] {
+    display: none;
 }
+/*code from http://webdesign.tutsplus.com/tutorials/quick-tip-easy-css3-checkboxes-and-radio-buttons-webdesign-8953*/
+.sm-row {
+    padding-left: 50px;
+}
+/*--------------Ribbon Men------------*/
+.outer-box {
+    max-height: 250px;
+    max-width: 250px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    padding-top: 20px;
+}
+.inner-box {
+    height: 210px;
+    width: 210px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4%;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0 1px 1px 1px #808080;
+    z-index: 50:
+}
+.inner-box .charts {
+    padding: 15px 0 0 0;
+}
+.ribbon-main-text {
+    font-size: 1.5em;
+    line-height: 80%;
+    margin: 7px;
+}
+.ribbon-sub-text {
+    font-size: .7em;
+}
+
+/*-------------------did you know-------------------*/
 .did-you-know {
     margin: 20px;
     border-radius: 10px;
     z-index: 1;
     background-color: #2398F4;
     color: #fff;
-    width: 700px;
-}
-.btn-default {
-    color: #F28F36;
+    max-width: 700px;
+    height: 200px;
+    width: 100%;
 }
 .dropdown {
     display: inline;
     float: right;
 }
-/*------------Social Media------------*/
-.facebook {
+.btn .caret {
+    color: #F28F36;
+}
+.did-you-know-inner {
+    padding: 60px 90px;
+    position: relative;
+    z-index: 1;
+    width: 100;
+}
+.bottom-left-arrow {
+    z-index: 100;
+    padding-top: 80px;
+    float: left;
+}
+.bottom-right-arrow {
+    z-index: 100;
+    float: right;
+    margin-top: -129px;
+}
+/*-------------------bottom ads-------------------*/
+.ads {
+    background-color: #2398F4;
+    z-index: 100;
+}
+.ad-1 {
+    display: block;
+    background-color: #fff;
     border-radius: 5px;
-    font-family: Arial;
-    color: #fff;
-    font-size: 11px;
-    background: #0A466D;
-    padding: 4px 10px 4px 10px;
-    text-decoration: none;
-    width: 63px;
+    z-index: 50;
+    margin: 12px 56px 0;
+    padding: 0 10px 10px 0;
+}
+.ad-2 {
+    display: block;
+    margin: 1px 0 0 33px;
+    height: 100%;
+}
+.ad-3 {
+    display: block;
+    margin: 11px 21px;
+}
+
+/*------------Miscellaneous------------*/
+.inline {
     display: inline;
 }
-.twitter {
-    border-radius: 5px;
-    font-family: Arial;
-    color: #fff;
-    font-size: 11px;
-    background: #079AED;
-    padding: 4px 10px 4px 10px;
-    text-decoration: none;
-    width: 55px;
+
+/*---------------Footer-------------*/
+#footer {
+    background-color: #f0f0f0;
+    box-shadow: #808080;
+}
+.footer-text: {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #808080;
     display: inline;
 }
-.foursquare {
-    border-radius: 5px;
-    font-family: Arial;
-    color: #fff;
-    font-size: 11px;
-    background: #385B96;
-    padding: 4px 10px 4px 10px;
-    text-decoration: none;
-    width: 65px;
+.footer-blue {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #2398F4;
+    font-weight: 700;
     display: inline;
 }
-.google {
-    border-radius: 5px;
-    font-family: Arial;
-    color: #fff;
-    font-size: 11px;
-    background: #03CB73;
-    padding: 4px 10px 4px 10px;
-    text-decoration: none;
-    width: 55px;
-    display: inline;
+/*---------------Media Query-------------*/
+/*--sm screens (tablets--*/
+@media screen and (max-width: 991px) {
+    .did-you-know {
+        margin: 5px;
+    }
+@media screen and (max-width: 550px) {
+    .did-you-know-inner {
+        padding: 25px 35px;
+    }
+    .bottom-right-arrow {
+        margin-top: -80px;
+    }
+/*--xs screens--*/
+@media screen and (max-width: 767px) {
+    .border-bottom {
+        
+    }
+    .border-left {
+        
+    }
+    .border-right {
+        
+    }
+    .border-right {
+        
+    }
 }
+
